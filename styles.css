@@ -15,10 +15,12 @@ body {
 
 #navbar ul {
     display: flex;
-    justify-content: center;
+    justify-content:first baseline;
     align-items: center;
     height: 50px;
+    list-style-type: none;
 }
+
 .nav-link {
     color: #fff;
     text-decoration: none;
